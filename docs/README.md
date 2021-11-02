@@ -1,8 +1,7 @@
 # vue-component-template
 
-基于rollup的 `vue@2` 组件开发模板.
+基于rollup打包 `vue@2.x` 组件开发模板.
 
-## Dir
 
 ```
 .
@@ -68,7 +67,7 @@ rollup-plugin-postcss #css处理，默认集成sass,less,stylus支持
 
 包含 Babel 模块化运行时助手和 regenerator-runtime 版本的库
 ```bash
-yarn add @babel/runtime
+yarn add --dev @babel/runtime
 ```
 
 babel配置

@@ -9,6 +9,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import './index.scss';
 .component-title{
   display: flex;
   justify-content: center;

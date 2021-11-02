@@ -6,7 +6,7 @@ import replace from '@rollup/plugin-replace'
 import postcss from 'rollup-plugin-postcss'
 import analyze from 'rollup-plugin-analyzer'
 
-const config = require('../package.json')
+const pkg = require('../package.json')
 
 export const name = 'VueComponent'
 
@@ -26,7 +26,7 @@ export default {
       extensions: ['.js', '.vue', 'jsx'],
     }),
     replace({
-      VERSION: JSON.stringify(config.version),
+      VERSION: JSON.stringify(pkg.version),
       preventAssignment: false,
     }),
     postcss(),
