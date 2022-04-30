@@ -10,8 +10,8 @@ module.exports = {
     ],
     sidebar: [
       ['/', 'Home'],
-      ['/CSS', 'CSS'],
-      ['/Rollup', 'Rollup'],
+      ['/css', 'CSS'],
+      ['/rollup', 'Rollup'],
     ]
   }
 }
