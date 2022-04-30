@@ -16,9 +16,9 @@ jobs:
           yarn install
           yarn docs:build
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: docs/.vuepress/dist
+          branch: gh-pages
+          folder: docs/.vuepress/dist
   
