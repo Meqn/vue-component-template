@@ -7,11 +7,6 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'example', link: 'https://meqn.github.io/vue-component-template/example/' },
       { text: 'GitHub', link: 'https://github.com/Meqn/vue-component-template' },
-    ],
-    sidebar: [
-      ['/', 'Home'],
-      ['/css', 'CSS'],
-      ['/rollup', 'Rollup'],
     ]
   }
 }
